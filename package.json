@@ -60,6 +60,7 @@
     "> 50%",
     "last 2 versions"
   ],
+  
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
@@ -75,7 +76,7 @@
     "cordova-plugin-inappbrowser": "file:src/plugins/cordova-plugin-inappbrowser",
     "cordova-plugin-intent": "file:src/plugins/cordova-plugin-intent",
     "cordova-plugin-navigationbar-color": "^0.1.0",
-    "cordova-plugin-sdcard": "file:../plugins/cordova-plugin-sdcard",
+    "cordova-plugin-sdcard": "file:src/plugins/cordova-plugin-sdcard",
     "cordova-plugin-sftp": "file:src/plugins/cordova-plugin-sftp",
     "cordova-plugin-statusbar": "^2.4.3",
     "cordova-plugin-system": "file:src/plugins/cordova-plugin-system",
