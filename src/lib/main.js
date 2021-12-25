@@ -97,7 +97,7 @@ async function ondeviceready() {
   window.toastQueue = [];
   window.toast = toast;
   window.ASSETS_DIRECTORY = Url.join(cordova.file.applicationDirectory, 'www');
-  window.IS_FREE_VERSION = /(free)$/.test(BuildInfo.packageName);
+  window.IS_FREE_VERSION = false;
   window.DATA_STORAGE = externalDataDirectory || dataDirectory;
   window.CACHE_STORAGE = externalCacheDirectory || cacheDirectory;
   window.KEYBINDING_FILE = Url.join(DATA_STORAGE, '.key-bindings.json');
